@@ -33,8 +33,24 @@ public class LibProg
         System.out.println(str.lastIndexOf(32));
     }
     
-    public void strreplace(String str)
+    public void strreplace(String str) //"HVB IS THE BEST SCHOOL IN MUMBAI"
     {
+        System.out.println(str.substring(0,3)+" "+str.substring(11,15)+" "+str.substring(26));
+    }
+    
+    public void LibForIf(String str)
+    {
+        str = str.toUpperCase();
+        int ctr=0; //tokeep track of vowels
+        for(int i=0;i<str.length();i++)
+        {
+            char ch= str.charAt(i);
+            if(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+            {
+                ctr += 1;
+            }
+        }
         System.out.println(str);
+        System.out.println("Number of vowels is "+ctr);
     }
 }
