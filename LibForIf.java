@@ -3,7 +3,7 @@ public class LibForIf//Important Library,if,for program. To find the number of v
 public void LibForIf(String str)
     {
         str = str.toUpperCase();
-        int ctr=0; //tokeep track of vowels
+        int ctr=0; //to keep track of vowels
         for(int i=0;i<str.length();i++)
         {
             char ch= str.charAt(i);
