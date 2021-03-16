@@ -1,4 +1,4 @@
-public class LibForIf
+public class LibForIf//Important Library,if,for program. To find the number of vowels in the string 
 {
 public void LibForIf(String str)
     {
