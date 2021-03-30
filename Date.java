@@ -1,7 +1,7 @@
 public class Date
 {
     //declare instance variable
-    private int d,m,y;
+    public int d,m,y;
     
     //parameterized constructor
     public Date()
