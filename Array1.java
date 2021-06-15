@@ -10,5 +10,6 @@ public class Array1
         }
     }
 }
-//Tip - You could write i<=4 or i<name.length in the for loop. Try i<=3 in for loop and
-//see output. name.length returns the size of the array
+/**Tip - You could write i<=4 or i<name.length in the for loop. Try i<=3 in for loop and
+* see output. name.length returns the size of the array
+*/
